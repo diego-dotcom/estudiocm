@@ -37,6 +37,10 @@ body {
     box-shadow: 0px 0px 31px 8px rgba(0, 0, 0, 0.75);
 }
 
+main {
+    background-color: var(--gris-claro);
+}
+
 a {
     text-decoration: none;
 }
@@ -127,7 +131,7 @@ img {
     }
 }
 
-.navbar-a {
+.navbar__enlace {
     font-family: var(--fuenteHeading);
     font-size: 1rem;
     text-transform: uppercase;
@@ -137,10 +141,9 @@ img {
     color: var(--primario);
 }
 
-
-.navbar-a:hover {
-    color: var(--terciario);
-    /* background-color: var(--secundario); */
+.navbar__enlace-activo,
+.navbar__enlace:hover {
+    color: var(--secundario);
 }
 
 /** INICIO **/
@@ -277,9 +280,6 @@ img {
 
 /** EQUIPO **/
 
-.equipo__main {
-    background-color: var(--gris-claro);
-}
 
 .equipo__titulo {
     font-size: 2rem;
@@ -343,6 +343,61 @@ img {
     font-family: var(--fuenteParrafos);
     font-size: 1.1rem;
 }
+
+
+/** SERVICIOS **/
+
+.servicios__titulo {
+    font-size: 2rem;
+    font-family: var(--fuenteHeading);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--oscuro);
+    padding: 4rem 0 3rem 0;
+    text-align: center;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 3rem;
+    margin: 0 3rem;
+}
+
+@media (min-width: 726px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+        margin: 0 3rem;
+    }
+}
+
+
+.servicio__titulo {
+    margin: 1rem 0 0 1rem;
+    display: flex;
+}
+
+@media (min-width: 726px) {
+    .servicio__titulo {
+        justify-content: center;
+    }
+}
+
+
+.servicio__titulo__texto {
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    margin: .5rem 0 2rem 2rem;
+}
+
+.servicio__descripcion {
+    line-height: 1.5;
+    margin-bottom: 3rem;
+}
+
+
 
 /** FOOTER **/
 
