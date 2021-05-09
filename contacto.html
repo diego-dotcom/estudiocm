@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="/img/favicon.png" type="image/png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Estudio Ciganek Mendizábal</title>
+</head>
+
+<body class="contenedor">
+    <!-- <div class="top-line">
+      <h3 class="no-margin center-text top-line-text">Contadores Públicos</h3>
+    </div> -->
+
+    <div class="header">
+        <a href="index.html"><img class="header__logo" src="/img/logo.jpg" alt="logo-estudio" /></a>
+        <div class="navbar">
+            <a class="navbar__enlace" href="/index.html">Inicio</a>
+            <a class="navbar__enlace" href="/nosotros.html">Nosotros</a>
+            <a class="navbar__enlace" href="/equipo.html">Equipo</a>
+            <a class="navbar__enlace" href="/servicios.html">Servicios</a>
+            <a class="navbar__enlace navbar__enlace-activo" href="/contacto.html">Contacto</a>
+        </div>
+    </div> <!-- .header -->
+
+    <main>
+        <h2 class="contacto__titulo">Contacto</h2>
+        <div class="contacto">
+            <div class="formulario-bg">
+                <h4>Complete el formulario</h4>
+                <form action="#" class="formulario">
+
+                    <div class="campo">
+                        <label class="campo__label" for="tipo">Quiero</label>
+                        <input type="radio" name="tipo" id="cliente">
+                        <p class="tipo-consulta">Consultar por sus servicios</p>
+                        <input type="radio" name="tipo" id="colaborador">
+                        <p class="tipo-consulta">Trabajar con ustedes</p>
+                    </div>
+
+                    <div class="campo">
+                        <label class="campo__label" for="nombre">Nombre</label>
+                        <input class="campo__field" type="text" id="nombre">
+                    </div>
+
+                    <div class="campo">
+                        <label class="campo__label" for="apellido">Apellido</label>
+                        <input class="campo__field" type="text" id="apellido">
+                    </div>
+
+                    <div class="campo">
+                        <label class="campo__label" for="email">E-mail</label>
+                        <input class="campo__field" type="email" id="email">
+                    </div>
+
+                    <div class="campo">
+                        <label class="campo__label campo__label-textarea" for="mensaje">Mensaje</label>
+                        <textarea class="campo__field campo__field--textarea" id="mensaje"></textarea>
+                    </div>
+
+                    <div class="campo">
+                        <label class="campo__label" for="archivo">Adjuntar</label>
+                        <input class="campo__field" type="file" id="archivo" accept=".pdf">
+                    </div>
+
+                    <div class="campo campo-boton">
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </form>
+
+            </div>
+            <div class="datos">
+                <div class="datos__direccion">
+                    <h3>Oficinas</h3>
+                    <p>Calle 20 N°1769 - La Plata</p>
+                    <p>Pasaje Sarmiento N°485 - Brandsen</p>
+                </div>
+                
+                <div class="datos__telefono">
+                    <h3>Teléfonos</h3>
+                    <i class="fas fa-mobile-alt fa-2x"></i><i class="fab fa-whatsapp fa-2x"></i><p>+54 9 221 6192584</p>
+                    <i class="fas fa-mobile-alt fa-2x"></i><i class="fab fa-whatsapp fa-2x"></i><p>+54 9 2223 492023</p>
+                </div>
+                
+            </div>
+
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.6483075772057!2d-57.94767338518297!3d-34.94035628289377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e8912f0ad8e1%3A0x36c01d0795e47216!2sCalle%2020%201769%2C%20B1904CYM%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1620561700974!5m2!1ses!2sar"
+                    width=100% height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.3067523894874!2d-58.2384128851745!3d-35.17390629539579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2b62b25861bff%3A0xa112abd2352e8e14!2sPje.%20Sarmiento%20485%2C%20B1980AXC%20Coronel%20Brandsen%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1620572834202!5m2!1ses!2sar"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__copyright">
+            <img class="footer__logo" src="/img/icono-logo-removebg-preview.png" alt="icono logo">
+            <i class="far fa-copyright fa-2x footer__copyright__symbol"></i>
+            <p class="footer__copyright__text"></i>Estudio Ciganek Mendizábal</p>
+        </div>
+
+        <div class="footer__redes">
+            <p class="footer__text">Seguinos en las Redes</p>
+
+            <a href="https://www.linkedin.com/company/estudio-ciganek-mendiz%C3%A1bal/about/" target="_blank"><i
+                    class="fab fa-linkedin-in fa-2x icono"></i></a>
+            <a href="https://www.instagram.com/estudiociganek.mendizabal/" target="_blank"><i
+                    class="fab fa-instagram fa-2x icono"></i></a>
+
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/327f29ceb7.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
